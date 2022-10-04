@@ -1,0 +1,61 @@
+.container-turmas {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.conteudo-turmas {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 90rem;
+
+  padding: 1rem;
+}
+
+.conteudo-turmas > h1 {
+  margin-bottom: 2rem;
+  font: 700 2rem 'Poppins', sans-serif;
+  color: #ea4335;
+}
+
+.conteudo-turmas > h2 {
+  margin-bottom: 0.5rem;
+  font: 700 1.7rem 'Poppins', sans-serif;
+  color: #ea4335;
+}
+
+.conteudo-turmas > section {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 0.7rem;
+  padding: 1.5rem;
+  gap: 3rem;
+  background: #f1f1f1;
+}
+
+.turma {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ea4335;
+  background: #fff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.turma:hover {
+  cursor: pointer;
+  filter: brightness(0.92);
+  color: #ea4335;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

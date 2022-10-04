@@ -1,0 +1,42 @@
+.container-prova {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.conteudo-prova {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 90rem;
+
+  padding: 1rem;
+}
+
+.conteudo-prova > h1 {
+  margin-bottom: 2rem;
+  font: 700 2rem 'Poppins', sans-serif;
+  color: #ea4335;
+}
+
+.conteudo-prova > h2 {
+  margin-bottom: 0.5rem;
+  font: 700 1.7rem 'Poppins', sans-serif;
+  color: #ea4335;
+}
+
+.conteudo-prova > section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 0.7rem;
+  padding: 1.5rem;
+  gap: 3rem;
+  background: #f1f1f1;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

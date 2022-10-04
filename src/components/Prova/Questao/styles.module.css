@@ -1,0 +1,17 @@
+.questao {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ea4335;
+  background: #fff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.enunciado {
+  padding-bottom: 1.5rem;
+}

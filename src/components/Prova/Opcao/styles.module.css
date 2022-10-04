@@ -1,0 +1,8 @@
+.opcao {
+}
+
+.opcao:hover {
+  cursor: pointer;
+  filter: brightness(0.92);
+  color: #ea4335;
+}
